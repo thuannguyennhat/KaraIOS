@@ -1,0 +1,13 @@
+/Users/truongkhanhduy/Projects/KaraIOS/KaraIOS/obj/Debug/.NETPortable,Version=v4.5,Profile=Profile259.AssemblyAttribute.cs
+/Users/truongkhanhduy/Projects/KaraIOS/KaraIOS/bin/Debug/KaraIOS.dll.mdb
+/Users/truongkhanhduy/Projects/KaraIOS/KaraIOS/bin/Debug/KaraIOS.dll
+/Users/truongkhanhduy/Projects/KaraIOS/KaraIOS/obj/Debug/KaraIOS.dll
+/Users/truongkhanhduy/Projects/KaraIOS/KaraIOS/obj/Debug/KaraIOS.dll.mdb
+/Users/truongkhanhduy/Projects/KaraIOS/KaraIOS/bin/Debug/Microsoft.Practices.ServiceLocation.dll
+/Users/truongkhanhduy/Projects/KaraIOS/KaraIOS/bin/Debug/GalaSoft.MvvmLight.dll
+/Users/truongkhanhduy/Projects/KaraIOS/KaraIOS/bin/Debug/GalaSoft.MvvmLight.Extras.dll
+/Users/truongkhanhduy/Projects/KaraIOS/KaraIOS/bin/Debug/Newtonsoft.Json.dll
+/Users/truongkhanhduy/Projects/KaraIOS/KaraIOS/bin/Debug/ModernHttpClient.dll
+/Users/truongkhanhduy/Projects/KaraIOS/KaraIOS/bin/Debug/System.Net.Http.dll
+/Users/truongkhanhduy/Projects/KaraIOS/KaraIOS/bin/Debug/System.Net.Http.Extensions.dll
+/Users/truongkhanhduy/Projects/KaraIOS/KaraIOS/bin/Debug/System.Net.Http.Primitives.dll

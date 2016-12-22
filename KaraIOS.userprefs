@@ -1,0 +1,32 @@
+﻿<Properties StartupConfiguration="{32479945-3E65-4509-AD3F-A688D6D50433}|Default">
+  <MonoDevelop.Ide.ItemProperties.KaraIOS.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.38C943B2-D38B-44A8-96AF-58A9BBBB7321" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="iOS/View/MainViewController.cs">
+    <Files>
+      <File FileName="iOS/View/LoginViewController.cs" Line="15" Column="1" />
+      <File FileName="iOS/View/MainViewController.cs" Line="21" Column="19" />
+      <File FileName="Droid/View/MainActivity.cs" Line="20" Column="24" NotebookId="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="KaraIOS" expanded="True">
+            <Node name="KaraIOS.Droid" expanded="True">
+              <Node name="View" expanded="True" />
+            </Node>
+            <Node name="KaraIOS.iOS" expanded="True">
+              <Node name="View" expanded="True">
+                <Node name="MainViewController.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.KaraIOS.Droid AndroidDesignerPreferredDevice="Nexus 4" PreferredExecutionTarget="Android.192.168.56.101:5555" />
+</Properties>
