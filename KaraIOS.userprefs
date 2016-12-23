@@ -1,27 +1,19 @@
-﻿<Properties StartupConfiguration="{32479945-3E65-4509-AD3F-A688D6D50433}|Default">
+﻿<Properties StartupConfiguration="{9A1E902A-67DF-4D2E-A1D3-692CB36EF6DB}|Default">
   <MonoDevelop.Ide.ItemProperties.KaraIOS.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.38C943B2-D38B-44A8-96AF-58A9BBBB7321" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="iOS/View/MainViewController.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="iOS/TableSource.cs">
     <Files>
-      <File FileName="iOS/View/LoginViewController.cs" Line="15" Column="1" />
-      <File FileName="iOS/View/MainViewController.cs" Line="21" Column="19" />
-      <File FileName="Droid/View/MainActivity.cs" Line="20" Column="24" NotebookId="1" />
+      <File FileName="iOS/View/LoginViewController.cs" Line="31" Column="13" />
+      <File FileName="iOS/View/MainViewController.cs" Line="43" Column="55" />
+      <File FileName="iOS/TableSource.cs" Line="19" Column="10" />
+      <File FileName="iOS/View/DetailViewController.cs" Line="26" Column="4" />
+      <File FileName="KaraIOS/Service/SongService.cs" Line="41" Column="16" />
+      <File FileName="KaraIOS/ViewModel/MainViewModel.cs" Line="25" Column="7" />
+      <File FileName="iOS/packages.config" Line="1" Column="1" />
+      <File FileName="Droid/View/MainActivity.cs" Line="53" Column="27" NotebookId="1" />
+      <File FileName="iOS/CustomCell.cs" Line="28" Column="22" NotebookId="1" />
+      <File FileName="iOS/MyTableViewCell.cs" Line="25" Column="4" NotebookId="1" />
+      <File FileName="iOS/MyTableViewCell.designer.cs" Line="1" Column="1" NotebookId="1" />
     </Files>
-    <Pads>
-      <Pad Id="ProjectPad">
-        <State name="__root__">
-          <Node name="KaraIOS" expanded="True">
-            <Node name="KaraIOS.Droid" expanded="True">
-              <Node name="View" expanded="True" />
-            </Node>
-            <Node name="KaraIOS.iOS" expanded="True">
-              <Node name="View" expanded="True">
-                <Node name="MainViewController.cs" selected="True" />
-              </Node>
-            </Node>
-          </Node>
-        </State>
-      </Pad>
-    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
