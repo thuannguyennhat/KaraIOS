@@ -29,7 +29,8 @@ namespace KaraIOS
 			ValidatedKeyWord(ref keyword);
 
 			var httpClient = new HttpClient(new NativeMessageHandler());
-			var response = await httpClient.GetAsync(HOST_NAME + keyword);
+			string uri = HOST_NAME + keyword;
+			var response = await httpClient.GetAsync(uri);
 
 			if (response.IsSuccessStatusCode)
 			{
@@ -38,11 +39,6 @@ namespace KaraIOS
 				return RemoveAds(JsonConvert.DeserializeObject<List<Song>>(json));
 			}
 			return null;
-			//Parse JSON to Song
-
-			//List<Song> listSong = new List<Song>();
-			//Remove Ads
-			//return RemoveAds(listSong);
 		}
 
 

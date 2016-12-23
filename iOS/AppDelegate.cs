@@ -38,6 +38,7 @@ namespace KaraIOS.iOS
 
 			nav.Configure(ViewModelLocator.MainPageKey, typeof(MainViewController));
 			nav.Configure(ViewModelLocator.LoginPageKey, typeof(LoginViewController));
+			nav.Configure(ViewModelLocator.DetailPageKey, typeof(DetailViewController));
 			nav.Configure(ViewModelLocator.RegisterPageKey, typeof(RegisterViewController));
 
 			return true;

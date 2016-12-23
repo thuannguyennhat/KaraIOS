@@ -21,7 +21,8 @@ namespace KaraIOS.ViewModel
             get { return _listData??(_listData=new List<Song>()); }
             set { 
                 _listData = value;
-            RaisePropertyChanged();
+				RaisePropertyChanged();
+				//Set(() => ListData, ref _listData, value);
             }
         }
 
@@ -48,7 +49,8 @@ namespace KaraIOS.ViewModel
         public async void GetSongs(string keyword,int itemCount)
         {
 			ListData = await songService.GetSongs(keyword,itemCount);
-            //Task.Factory.StartNew(() => ListData = songService.GetSongs(keyword));
+			//Task.Factory.StartNew(() => ListData = songService.GetSongs(keyword));
         }
+
     }
 }

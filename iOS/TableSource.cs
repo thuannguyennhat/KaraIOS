@@ -1,54 +1,61 @@
 ﻿using System;
+using System.Collections.Generic;
 using Foundation;
+using KaraIOS.ViewModel;
 using UIKit;
 
 namespace KaraIOS.iOS
 {
 	public class TableSource:UITableViewSource
 	{
-		string[] items;
-		string CellIdentifier = "Table Cell";
+		List<Song> listSong;
 
-		public TableSource(string[] items)
+		public void SetList(List<Song> list)
 		{
-			this.items = items;
+			this.listSong = list;
+		}
+
+		string CellIdentifier = "MyTableViewCell";
+
+		public TableSource(List<Song> songs)
+		{
+			this.listSong = songs;
 		}
 
 		public override UITableViewCell GetCell(UITableView tableView, NSIndexPath indexPath)
 		{
-
-			/*var cell = tableView.DequeueReusableCell(CellIdentifier) as CustomCell;
-			if (cell == null)
-				cell = new CustomCell(CellIdentifier);
-			cell.UpdateCell(items[indexPath.Row].Heading
-					, items[indexPath.Row].SubHeading
-					, UIImage.FromFile("Images/" + items[indexPath.Row].ImageName));
-			return cell;*/
-			var cell = tableView.DequeueReusableCell(CellIdentifier);
+			var cell = tableView.DequeueReusableCell(CellIdentifier) as MyTableViewCell;
 
 			if (cell == null)
-				cell = new UITableViewCell(UITableViewCellStyle.Default,CellIdentifier);
-			cell.TextLabel.Text = items[indexPath.Row];
-			cell.Accessory = UITableViewCellAccessory.DetailDisclosureButton;
+				cell = new MyTableViewCell(CellIdentifier);
 
-			tableView.SeparatorColor = UIColor.Blue;
+			cell.UpdateCell(listSong[indexPath.Row].Name,
+							"Chi dan",
+			                listSong[indexPath.Row].Image);
 			//tableView.SeparatorStyle = UITableViewCellSeparatorStyle.DoubleLineEtched;
 
 			//tableView.SeparatorEffect =
 			//	UIBlurEffect.FromStyle(UIBlurEffectStyle.Dark);
-			return cell;
+			tableView.RowHeight=111;
+			tableView.SeparatorStyle = UITableViewCellSeparatorStyle.None;
 
+			return cell;
 		}
 
 		public override nint RowsInSection(UITableView tableview, nint section)
 		{
-			return items.Length;
+			return listSong==null?0:listSong.Count;
 		}
 
 		public override void RowSelected(UITableView tableView, NSIndexPath indexPath)
 		{
-			new UIAlertView("Row selected",items[indexPath.Row].ToString(), null, "Confirm").Show();
+			//TODO: Navigate to DetailPage
+			Vm.NavigateToDetail(listSong[indexPath.Row]);
+
+			//new UIAlertView("Row selected",listSong[indexPath.Row].Name, null, "Confirm").Show();
 			tableView.DeselectRow(indexPath, true);
 		}
+
+		MainViewModel Vm = Application.Locator.Main;
 	}
 }

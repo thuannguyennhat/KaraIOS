@@ -308,6 +308,14 @@
 	/Users/truongkhanhduy/Projects/KaraIOS/packages/MvvmLightLibs.5.3.0.0/lib/xamarin.ios10/GalaSoft.MvvmLight.Platform.dll \
 	-r \
 	/Users/truongkhanhduy/Projects/KaraIOS/KaraIOS/bin/Debug/KaraIOS.dll \
+	-r \
+	/Users/truongkhanhduy/Projects/KaraIOS/KaraIOS/bin/Debug/System.Net.Http.dll \
+	-r \
+	/Users/truongkhanhduy/Projects/KaraIOS/KaraIOS/bin/Debug/ModernHttpClient.dll \
+	-r \
+	/Users/truongkhanhduy/Projects/KaraIOS/KaraIOS/bin/Debug/Newtonsoft.Json.dll \
+	-r \
+	/Users/truongkhanhduy/Projects/KaraIOS/KaraIOS/bin/Debug/System.Net.Http.Primitives.dll \
 	--target-framework \
 	"Xamarin.iOS,v1.0" \
 	/Users/truongkhanhduy/Projects/KaraIOS/iOS/bin/iPhoneSimulator/Debug//KaraIOS.iOS.exe \

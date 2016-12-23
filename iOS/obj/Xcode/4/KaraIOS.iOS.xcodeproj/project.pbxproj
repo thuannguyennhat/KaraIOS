@@ -1,0 +1,314 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A3033EFA0000000000000000 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BAE42A20000000000000000 /* UIKit.framework */; };
+		1BE125BE0000000000000000 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2D05BDE0000000000000000 /* MapKit.framework */; };
+		94BF0C820000000000000000 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9CF34600000000000000000 /* Foundation.framework */; };
+		E9B376240000000000000000 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A2558360000000000000000 /* CoreGraphics.framework */; };
+		116ACD2E0000000000000000 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F6596560000000000000000 /* Assets.xcassets */; };
+		8A48B3F20000000000000000 /* Contents.json in Resources */ = {isa = PBXBuildFile; fileRef = 312163DE0000000000000000 /* Contents.json */; };
+		3269AB600000000000000000 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22DD31660000000000000000 /* LaunchScreen.storyboard */; };
+		7C04817A0000000000000000 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B38F50A0000000000000000 /* Main.storyboard */; };
+		F4E2683E0000000000000000 /* RegisterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2DF3321E0000000000000000 /* RegisterViewController.xib */; };
+		6DC04F020000000000000000 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A6D118E20000000000000000 /* MainViewController.xib */; };
+		E69E35C60000000000000000 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1FAEFFA60000000000000000 /* LoginViewController.xib */; };
+		5F7C1C8A0000000000000000 /* MyTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 25B0E4600000000000000000 /* MyTableViewCell.xib */; };
+		D85A034E0000000000000000 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 97C159FA0000000000000000 /* Info.plist */; };
+		5137EA120000000000000000 /* Entitlements.plist in Resources */ = {isa = PBXBuildFile; fileRef = A6058C720000000000000000 /* Entitlements.plist */; };
+		CA15D0D60000000000000000 /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 988CE66A0000000000000000 /* DetailViewController.xib */; };
+		42F3B79A0000000000000000 /* DetailViewController.h in Sources */ = {isa = PBXBuildFile; fileRef = 2D27A5AE0000000000000000 /* DetailViewController.h */; };
+		BBD19E5E0000000000000000 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DFE1E2C20000000000000000 /* DetailViewController.m */; };
+		34AF85220000000000000000 /* MyTableViewCell.h in Sources */ = {isa = PBXBuildFile; fileRef = 3B6BD8260000000000000000 /* MyTableViewCell.h */; };
+		AD8D6BE60000000000000000 /* MyTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 58BFC9860000000000000000 /* MyTableViewCell.m */; };
+		266B52AA0000000000000000 /* LoginViewController.h in Sources */ = {isa = PBXBuildFile; fileRef = C28DF1620000000000000000 /* LoginViewController.h */; };
+		9F49396E0000000000000000 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D19DB04A0000000000000000 /* LoginViewController.m */; };
+		182720320000000000000000 /* MainViewController.h in Sources */ = {isa = PBXBuildFile; fileRef = 49B00A9E0000000000000000 /* MainViewController.h */; };
+		910506F60000000000000000 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A7B970E0000000000000000 /* MainViewController.m */; };
+		9E2EDBA00000000000000000 /* RegisterViewController.h in Sources */ = {isa = PBXBuildFile; fileRef = D0D223DA0000000000000000 /* RegisterViewController.h */; };
+		82C0D47E0000000000000000 /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3597DD20000000000000000 /* RegisterViewController.m */; };
+		FB9EBB420000000000000000 /* ViewController.h in Sources */ = {isa = PBXBuildFile; fileRef = 57F43D160000000000000000 /* ViewController.h */; };
+		747CA2060000000000000000 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C3764960000000000000000 /* ViewController.m */; };
+		ED5A88CA0000000000000000 /* AppDelegate.h in Sources */ = {isa = PBXBuildFile; fileRef = DF1656520000000000000000 /* AppDelegate.h */; };
+		66386F8E0000000000000000 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B5154B5A0000000000000000 /* AppDelegate.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F7D0E15A0000000000000000 /* KaraIOS.iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = "KaraIOS.iOS.app"; path = "KaraIOS.iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BAE42A20000000000000000 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "UIKit.framework"; path = "System/Library/Frameworks/UIKit.framework"; sourceTree = SDKROOT; };
+		E2D05BDE0000000000000000 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "MapKit.framework"; path = "System/Library/Frameworks/MapKit.framework"; sourceTree = SDKROOT; };
+		D9CF34600000000000000000 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "Foundation.framework"; path = "System/Library/Frameworks/Foundation.framework"; sourceTree = SDKROOT; };
+		2A2558360000000000000000 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "CoreGraphics.framework"; path = "System/Library/Frameworks/CoreGraphics.framework"; sourceTree = SDKROOT; };
+		3F6596560000000000000000 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = "Assets.xcassets"; path = "Assets.xcassets"; sourceTree = "<group>"; };
+		312163DE0000000000000000 /* Contents.json */ = {isa = PBXFileReference; name = "Contents.json"; path = "Assets.xcassets/Contents.json"; sourceTree = "<group>"; };
+		22DD31660000000000000000 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = "LaunchScreen.storyboard"; path = "LaunchScreen.storyboard"; sourceTree = "<group>"; };
+		7B38F50A0000000000000000 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = "Main.storyboard"; path = "Main.storyboard"; sourceTree = "<group>"; };
+		2DF3321E0000000000000000 /* RegisterViewController.xib */ = {isa = PBXFileReference; name = "RegisterViewController.xib"; path = "View/RegisterViewController.xib"; sourceTree = "<group>"; };
+		A6D118E20000000000000000 /* MainViewController.xib */ = {isa = PBXFileReference; name = "MainViewController.xib"; path = "View/MainViewController.xib"; sourceTree = "<group>"; };
+		1FAEFFA60000000000000000 /* LoginViewController.xib */ = {isa = PBXFileReference; name = "LoginViewController.xib"; path = "View/LoginViewController.xib"; sourceTree = "<group>"; };
+		25B0E4600000000000000000 /* MyTableViewCell.xib */ = {isa = PBXFileReference; name = "MyTableViewCell.xib"; path = "MyTableViewCell.xib"; sourceTree = "<group>"; };
+		97C159FA0000000000000000 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Info.plist"; path = "Info.plist"; sourceTree = "<group>"; };
+		A6058C720000000000000000 /* Entitlements.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Entitlements.plist"; path = "Entitlements.plist"; sourceTree = "<group>"; };
+		988CE66A0000000000000000 /* DetailViewController.xib */ = {isa = PBXFileReference; name = "DetailViewController.xib"; path = "View/DetailViewController.xib"; sourceTree = "<group>"; };
+		2D27A5AE0000000000000000 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "DetailViewController.h"; path = "DetailViewController.h"; sourceTree = "<group>"; };
+		DFE1E2C20000000000000000 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "DetailViewController.m"; path = "DetailViewController.m"; sourceTree = "<group>"; };
+		3B6BD8260000000000000000 /* MyTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "MyTableViewCell.h"; path = "MyTableViewCell.h"; sourceTree = "<group>"; };
+		58BFC9860000000000000000 /* MyTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "MyTableViewCell.m"; path = "MyTableViewCell.m"; sourceTree = "<group>"; };
+		C28DF1620000000000000000 /* LoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "LoginViewController.h"; path = "LoginViewController.h"; sourceTree = "<group>"; };
+		D19DB04A0000000000000000 /* LoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "LoginViewController.m"; path = "LoginViewController.m"; sourceTree = "<group>"; };
+		49B00A9E0000000000000000 /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "MainViewController.h"; path = "MainViewController.h"; sourceTree = "<group>"; };
+		4A7B970E0000000000000000 /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "MainViewController.m"; path = "MainViewController.m"; sourceTree = "<group>"; };
+		D0D223DA0000000000000000 /* RegisterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "RegisterViewController.h"; path = "RegisterViewController.h"; sourceTree = "<group>"; };
+		C3597DD20000000000000000 /* RegisterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "RegisterViewController.m"; path = "RegisterViewController.m"; sourceTree = "<group>"; };
+		57F43D160000000000000000 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "ViewController.h"; path = "ViewController.h"; sourceTree = "<group>"; };
+		3C3764960000000000000000 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "ViewController.m"; path = "ViewController.m"; sourceTree = "<group>"; };
+		DF1656520000000000000000 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "AppDelegate.h"; path = "AppDelegate.h"; sourceTree = "<group>"; };
+		B5154B5A0000000000000000 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "AppDelegate.m"; path = "AppDelegate.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F6FC246A0000000000000000 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3033EFA0000000000000000 /* UIKit.framework in Frameworks */,
+				1BE125BE0000000000000000 /* MapKit.framework in Frameworks */,
+				94BF0C820000000000000000 /* Foundation.framework in Frameworks */,
+				E9B376240000000000000000 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6C7BE1AC0000000000000000 = {
+			isa = PBXGroup;
+			children = (
+				AD76B3400000000000000000 /* KaraIOS.iOS */,
+				3E5120C20000000000000000 /* Frameworks */,
+				9AA6A2960000000000000000 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9AA6A2960000000000000000 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F7D0E15A0000000000000000 /* KaraIOS.iOS.app */,
+			);
+			name = "Products";
+			sourceTree = "<group>";
+		};
+		3E5120C20000000000000000 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5BAE42A20000000000000000 /* UIKit.framework */,
+				E2D05BDE0000000000000000 /* MapKit.framework */,
+				D9CF34600000000000000000 /* Foundation.framework */,
+				2A2558360000000000000000 /* CoreGraphics.framework */,
+			);
+			name = "Frameworks";
+			sourceTree = "<group>";
+		};
+		AD76B3400000000000000000 /* KaraIOS.iOS */ = {
+			isa = PBXGroup;
+			children = (
+				DF1656520000000000000000 /* AppDelegate.h */,
+				3F6596560000000000000000 /* Assets.xcassets */,
+				2D27A5AE0000000000000000 /* DetailViewController.h */,
+				A6058C720000000000000000 /* Entitlements.plist */,
+				97C159FA0000000000000000 /* Info.plist */,
+				22DD31660000000000000000 /* LaunchScreen.storyboard */,
+				C28DF1620000000000000000 /* LoginViewController.h */,
+				7B38F50A0000000000000000 /* Main.storyboard */,
+				49B00A9E0000000000000000 /* MainViewController.h */,
+				3B6BD8260000000000000000 /* MyTableViewCell.h */,
+				25B0E4600000000000000000 /* MyTableViewCell.xib */,
+				D0D223DA0000000000000000 /* RegisterViewController.h */,
+				57F43D160000000000000000 /* ViewController.h */,
+				82DB36360000000000000000 /* Assets.xcassets */,
+				B105F7200000000000000000 /* Supporting Files */,
+				99F096AB0000000000000000 /* View */,
+			);
+			name = "KaraIOS.iOS";
+			sourceTree = "<group>";
+		};
+		82DB36360000000000000000 /* Assets.xcassets */ = {
+			isa = PBXGroup;
+			children = (
+				312163DE0000000000000000 /* Contents.json */,
+			);
+			name = "Assets.xcassets";
+			sourceTree = "<group>";
+		};
+		99F096AB0000000000000000 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				988CE66A0000000000000000 /* DetailViewController.xib */,
+				1FAEFFA60000000000000000 /* LoginViewController.xib */,
+				A6D118E20000000000000000 /* MainViewController.xib */,
+				2DF3321E0000000000000000 /* RegisterViewController.xib */,
+			);
+			name = "View";
+			sourceTree = "<group>";
+		};
+		B105F7200000000000000000 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B5154B5A0000000000000000 /* AppDelegate.m */,
+				DFE1E2C20000000000000000 /* DetailViewController.m */,
+				D19DB04A0000000000000000 /* LoginViewController.m */,
+				4A7B970E0000000000000000 /* MainViewController.m */,
+				58BFC9860000000000000000 /* MyTableViewCell.m */,
+				C3597DD20000000000000000 /* RegisterViewController.m */,
+				3C3764960000000000000000 /* ViewController.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		155BF4680000000000000000 /* KaraIOS.iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6941C8010000000000000000 /* Build configuration list for PBXNativeTarget "KaraIOS.iOS" */;
+			buildPhases = (
+				F159CDBF0000000000000000 /* Sources */,
+				F6FC246A0000000000000000 /* Frameworks */,
+				CC003AD20000000000000000 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "KaraIOS.iOS";
+			productName = "KaraIOS.iOS";
+			productReference = F7D0E15A0000000000000000 /* KaraIOS.iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		23B49FC60000000000000000 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 50178C930000000000000000 /* Build configuration list for PBXProject "KaraIOS.iOS" */;
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6C7BE1AC0000000000000000;
+			productRefGroup = 9AA6A2960000000000000000 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				155BF4680000000000000000 /* KaraIOS.iOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CC003AD20000000000000000 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				116ACD2E0000000000000000 /* Assets.xcassets in Resources */,
+				8A48B3F20000000000000000 /* Contents.json in Resources */,
+				3269AB600000000000000000 /* LaunchScreen.storyboard in Resources */,
+				7C04817A0000000000000000 /* Main.storyboard in Resources */,
+				F4E2683E0000000000000000 /* RegisterViewController.xib in Resources */,
+				6DC04F020000000000000000 /* MainViewController.xib in Resources */,
+				E69E35C60000000000000000 /* LoginViewController.xib in Resources */,
+				5F7C1C8A0000000000000000 /* MyTableViewCell.xib in Resources */,
+				D85A034E0000000000000000 /* Info.plist in Resources */,
+				5137EA120000000000000000 /* Entitlements.plist in Resources */,
+				CA15D0D60000000000000000 /* DetailViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F159CDBF0000000000000000 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42F3B79A0000000000000000 /* DetailViewController.h in Sources */,
+				BBD19E5E0000000000000000 /* DetailViewController.m in Sources */,
+				34AF85220000000000000000 /* MyTableViewCell.h in Sources */,
+				AD8D6BE60000000000000000 /* MyTableViewCell.m in Sources */,
+				266B52AA0000000000000000 /* LoginViewController.h in Sources */,
+				9F49396E0000000000000000 /* LoginViewController.m in Sources */,
+				182720320000000000000000 /* MainViewController.h in Sources */,
+				910506F60000000000000000 /* MainViewController.m in Sources */,
+				9E2EDBA00000000000000000 /* RegisterViewController.h in Sources */,
+				82C0D47E0000000000000000 /* RegisterViewController.m in Sources */,
+				FB9EBB420000000000000000 /* ViewController.h in Sources */,
+				747CA2060000000000000000 /* ViewController.m in Sources */,
+				ED5A88CA0000000000000000 /* AppDelegate.h in Sources */,
+				66386F8E0000000000000000 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3E5A51420000000000000000 /* MonoTouch */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				SDKROOT = iphoneos;
+			};
+			name = MonoTouch;
+		};
+		CD0449F20000000000000000 /* MonoTouch */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				PRODUCT_NAME = "KaraIOS.iOS";
+				WRAPPER_EXTENSION = app;
+			};
+			name = MonoTouch;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		50178C930000000000000000 /* Build configuration list for PBXProject "KaraIOS.iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E5A51420000000000000000 /* MonoTouch */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = MonoTouch;
+		};
+		6941C8010000000000000000 /* Build configuration list for PBXNativeTarget "KaraIOS.iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD0449F20000000000000000 /* MonoTouch */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = MonoTouch;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 23B49FC60000000000000000 /* Project object */;
+}

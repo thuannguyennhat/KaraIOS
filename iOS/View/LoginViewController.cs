@@ -13,9 +13,12 @@ namespace KaraIOS.iOS
 		{
 		}
 
+
+		private string username;
 		public LoginViewController(string str)
 			: base("LoginViewController", null)
 		{
+			this.username = str;
 		}
 
 		LoginViewModel Vm = Application.Locator.Login;
@@ -27,8 +30,8 @@ namespace KaraIOS.iOS
 
 			Title = "Login";
 
-			CheckLogin();
 			AddControls();
+			CheckLogin();
 		}
 
 		void AddControls()
@@ -51,12 +54,12 @@ namespace KaraIOS.iOS
 
 		void CheckLogin()
 		{
-			var nav = (NavigationService)ServiceLocator.Current.GetInstance<INavigationService>();
-			var param = nav.GetAndRemoveParameter(this);
-			if (param!=null)
+			//var nav = (NavigationService)ServiceLocator.Current.GetInstance<INavigationService>();
+			//var param = nav.GetAndRemoveParameter(this);
+			if (username!=null)
 			{
 				//just registered
-				txtUsername.Text = param.ToString();
+				txtUsername.Text = username;
 			}
 		}
 

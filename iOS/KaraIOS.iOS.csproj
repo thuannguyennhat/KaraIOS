@@ -122,6 +122,8 @@
     <InterfaceDefinition Include="View\RegisterViewController.xib" />
     <InterfaceDefinition Include="View\MainViewController.xib" />
     <InterfaceDefinition Include="View\LoginViewController.xib" />
+    <InterfaceDefinition Include="MyTableViewCell.xib" />
+    <InterfaceDefinition Include="View\DetailViewController.xib" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Info.plist" />
@@ -149,6 +151,14 @@
     </Compile>
     <Compile Include="TableSource.cs" />
     <Compile Include="CustomCell.cs" />
+    <Compile Include="MyTableViewCell.cs" />
+    <Compile Include="MyTableViewCell.designer.cs">
+      <DependentUpon>MyTableViewCell.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\DetailViewController.cs" />
+    <Compile Include="View\DetailViewController.designer.cs">
+      <DependentUpon>DetailViewController.cs</DependentUpon>
+    </Compile>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
 </Project>

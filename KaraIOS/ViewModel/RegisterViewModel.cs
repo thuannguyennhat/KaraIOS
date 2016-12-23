@@ -29,7 +29,7 @@ namespace KaraIOS
         /// <param name="newUserName">New user.</param>
         public void RegisterComplete(string newUserName)
         {
-			navigationService.GoBack();
+			navigationService.NavigateTo(ViewModelLocator.LoginPageKey,newUserName);
         }
     }
 }
